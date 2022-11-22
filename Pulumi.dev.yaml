@@ -1,0 +1,7 @@
+config:
+  aws:region: us-east-1
+  eks_go:desiredClusterSize: "3"
+  eks_go:eksNodeInstanceType: t2.medium
+  eks_go:maxClusterSize: "6"
+  eks_go:minClusterSize: "3"
+  eks_go:vpcNetworkCidr: 10.0.0.0/16
